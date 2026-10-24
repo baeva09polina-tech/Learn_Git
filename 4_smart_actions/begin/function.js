@@ -1,5 +1,18 @@
 
+
+
+/**
+ * Filters numbers greater than 5 and returns their sum.
+ *
+ * @param {number[]} nums - Numbers to filter and sum.
+ * @returns {number} The sum of the numbers greater than 5.
+ */
 function doStuff(nums) {
+    /**
+     * Returns only the numbers that satisfy the predicate `y`.
+     * @param {number[]} arr - Numbers to filter.
+     * @returns {number[]} The filtered numbers.
+     */
   function x(arr) {
       let res = [];
       for (let n of arr) {
@@ -10,11 +23,21 @@ function doStuff(nums) {
       return res;
   }
   
-  function y(n) {
+    /**
+     * Determines whether a number is greater than 5.
+     * @param {number} n - Number to test.
+     * @returns {boolean} Whether the number is greater than 5.
+     */
+    function y(n) {
       return n > 5;
   }
   
-      function z(arr) {
+    /**
+     * Adds the numbers in an array.
+     * @param {number[]} arr - Numbers to add.
+     * @returns {number} The sum of the numbers.
+     */
+    function z(arr) {
           let total = 0;
           for (let val of) {
           total += val;
